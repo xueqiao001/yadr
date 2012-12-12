@@ -364,3 +364,12 @@
 [submodule "vim/bundle/itspriddle-vim-jquery"]
 	path = vim/bundle/itspriddle-vim-jquery
 	url = https://github.com/itspriddle/vim-jquery.git
+[submodule "vim/bundle/git:--github.com-nelstrom-vim-markdown-folding"]
+	path = vim/bundle/git:--github.com-nelstrom-vim-markdown-folding
+	url = git://github.com/nelstrom/vim-markdown-folding.git
+[submodule "vim/bundle/git:--github.com-jnwhiteh-vim-golang"]
+	path = vim/bundle/git:--github.com-jnwhiteh-vim-golang
+	url = git://github.com/jnwhiteh/vim-golang.git
+[submodule "vim/bundle/git:--github.com-benmills-vimux"]
+	path = vim/bundle/git:--github.com-benmills-vimux
+	url = git://github.com/benmills/vimux.git
