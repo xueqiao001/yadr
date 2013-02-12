@@ -361,3 +361,6 @@
 [submodule "vim/bundle/ervandew-screen"]
 	path = vim/bundle/ervandew-screen
 	url = https://github.com/ervandew/screen
+[submodule "vim/bundle/Valloric-YouCompleteMe"]
+	path = vim/bundle/Valloric-YouCompleteMe
+	url = https://github.com/Valloric/YouCompleteMe
