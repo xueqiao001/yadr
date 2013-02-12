@@ -373,3 +373,6 @@
 [submodule "vim/bundle/git:--github.com-benmills-vimux"]
 	path = vim/bundle/git:--github.com-benmills-vimux
 	url = git://github.com/benmills/vimux.git
+[submodule "vim/bundle/ervandew-screen"]
+	path = vim/bundle/ervandew-screen
+	url = https://github.com/ervandew/screen
