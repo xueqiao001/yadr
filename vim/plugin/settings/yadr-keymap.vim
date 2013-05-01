@@ -65,9 +65,6 @@ vmap ,{ c{<C-R>"}<ESC>
 " gary bernhardt's hashrocket
 imap <c-l> <space>=><space>
 
-" Semicolon at end of line by typing ;;
-inoremap ;; <C-o>A;<esc>
-
 " Change inside various enclosures with Cmd-" and Cmd-'
 " The f makes it find the enclosure so you don't have
 " to be standing inside it
@@ -129,6 +126,10 @@ nnoremap ,gcf :call GitGrep(expand("%:t:r"))<CR>
 "with ,z and ,x
 nnoremap <silent> ,z :bp<CR>
 nnoremap <silent> ,x :bn<CR>
+
+" Reselect visual block after indent/outdent
+vnoremap < <gv
+vnoremap > >gv
 
 " ==============================
 " Window/Tab/Split Manipulation
